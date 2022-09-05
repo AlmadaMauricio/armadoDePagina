@@ -1,16 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto Codo a codo!</title>
-</head>
-<body>
-    <h1>Presentacion.</h1>
-    <p>Mi nombre es Mauricio, tengo 25 años y soy de zona norte. Actualmentes estoy en 2°año de la tecnicatura en programacion en la utn de pacheco. Decidi entrar a codo a codo para poder complementar ambos estudios entre la facultad y codo.</p>
-    <h3>Como parte del trabajo voy a subir una imagen</h3>
-    <img src="https://picsum.photos/200/300" alt="">
-    <a>Imagen random.</a>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pagina Bs.As</title>
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="./css/estilos.css">
+    </head>
+        <body>
+            <!--Inicio header-->
+            <header>
+                <div class="cabeceraPrincipal">
+                    <img src="./assets/imagenes/codoacodo.png" alt="Logo de codo a codo">
+                    <h2>Conf. Bs.As</h2>
+                    <nav>
+                        <a href="#">Inicio</a>
+                        <a href="./pages/galeria.html">Galeria</a>
+                        <a href="./pages/informacion.html">Información</a>
+                        <a href="./pages/nosotros.html">Nosotros</a>
+                        <a href="./pages/contacto.html">Contacto</a>
+                    </nav>
+                </div>
+                <div>
+                 <img src="./assets/imagenes/ba1.jpg" alt="Imagen de Buenos Aires." loading="lazy" width="1000">
+                 <h1>Conf. Bs.As</h1>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam perferendis sed impedit deleniti temporibus odio rem magnam modi aut voluptate quas quidem, tempora, iste aliquid cupiditate in doloremque doloribus officiis.</p>
+                 <a href="">Quiero ser Orador</a>
+                 <a href="">Comprar tickets</a>
+                </div>
+            </header>
+            <!--Fin header-->
+            <!--Inicio main-->
+            <main>
+                <div>
+                    <h4>Conoce a los</h4>
+                    <h2>ORADORES</h2>
+                    <!--Etiqueta contenedora que funciona como comodin en bloque-->
+                    <img src="./assets/imagenes/steve.jpg" alt="Steve Jobs sonriendo." width="300" loading="lazy">
+                    <h3>Titulo de card</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>Quibusdam rem inventore temporibus ipsum minus iste facilis ipsa fugiat accusamus.<br>Eius animi deserunt laborum commodi sunt harum exercitationem explicabo illo enim!</p>
+                    <a href="">Leer más</a>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <!--Etiqueta contenedora que funciona como comodin en bloque-->
+                    <img src="./assets/imagenes/bill.jpg" alt="Bill Gates." width="300" loading="lazy">
+                    <h3>Titulo de card</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>Quibusdam rem inventore temporibus ipsum minus iste facilis ipsa fugiat accusamus.<br>Eius animi deserunt laborum commodi sunt harum exercitationem explicabo illo enim!</p>
+                    <a href="">Leer más</a>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <!--Etiqueta contenedora que funciona como comodin en bloque-->
+                    <img src="./assets/imagenes/ada.jpeg" alt="Ada Lovelace." width="300" loading="lazy">
+                    <h3>Titulo de card</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<div style="color:red;">rem inventore temporibus ipsum minusiste facilis ipsa fugiat accusamus.</div>Eius animi deserunt laborum commodi sunt harum exercitationem explicabo illo enim!</p>
+                    <a href="">Leer más</a>
+                </div>
+            </main>
+            <br>
+            <!--Fin main-->
+            <section>
+                <img src="./assets/imagenes/honolulu.jpg" alt="Playa de Honolulu, hawaii">
+                <div>
+                    <h2>Bs.As - Octubre</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur asperiores soluta, quas recusandae accusamus vero id numquam placeat. Unde explicabo ex soluta eaque qui? Numquam, facilis aperiam. Deserunt, unde distinctio.</p>
+                    <a href="">Conocé más</a>
+                </div>
+            </section>
+            <br><br>
+            <section>
+                <!--Inserte formulario-->
+                <form action="">
+                    <!--<label for="">Ingrese su nombre</label>-->
+                    <input type="text" placeholder="Nombre" required>
+                    <input type="text" placeholder="Apellido" required>
+                    <textarea name="" id="" cols="20" rows="5" placeholder="Sobre qué quieres hablar" required></textarea>
+                    <select name="" id="">
+                        <option value="">Lunes y Miercoles</option>
+                        <option value="">Martes y Jueves</option>
+                    </select>
+                    <div>
+                        <input type="submit" value="Enviar ahora">
+                        <input type="reset" value="limpiar">
+                    </div>
+                </form>
+            </section>
+            <!--Fin formulario-->
+            <br><br>
+            <!--Inicio tabla-->
+            <section>
+                <table>
+                    <caption>Horarios Charlas</caption>
+                    <thead>
+                        <tr>
+                            <th>Orador</th>
+                            <th>Día</th>
+                            <th>Horario</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Steve Jobs</td>
+                            <td>Lunes y Miercoles</td>
+                            <td>18:30hs a 20hs</td>
+                        </tr>
+                        <tr>
+                            <td>Bill Gates</td>
+                            <td>Martes y Jueves</td>
+                            <td>18:30hs a 20hs</td>
+                        </tr>
+                        <tr>
+                            <td>Ada Lov.</td>
+                            <td>Lunes y Sabados</td>
+                            <td>10:00hs a 11:30hs</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <!--Fin tabla-->
+            <aside>
+                <h2>Propaganda</h2>
+                <img src="" alt="Coca-Cola">
+            </aside>
+            <article>
+                
+            </article>
+            <footer>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+            </footer>
+    </body>
 </html>
